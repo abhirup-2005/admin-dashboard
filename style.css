@@ -16,7 +16,9 @@ body {
 
 /* HEADER */
 header {
-    padding: 20px 40px;
+    position: relative;
+    z-index: 1;
+    padding: 10px 40px;
     background-color: white;
     grid-column: 2 / -1;
     grid-row: 1/2;
@@ -24,6 +26,7 @@ header {
     display: grid;
     grid-template-rows: repeat(2, min-content);
     gap: 20%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 5px 5px;
 }
 
 .up {
@@ -208,6 +211,7 @@ main {
     border-radius: 10px;
     padding: 30px 10px 30px 20px;
     border-left: rgb(218, 203, 4) 8px solid;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 5px 5px;
 
     display: grid;
     align-content: space-between;
@@ -241,6 +245,7 @@ main {
     padding: 20px;
     background-color: white;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 5px 5px;
 }
 
 .trends {
@@ -252,6 +257,7 @@ main {
     padding: 10px;
     background-color: white;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 5px 5px;
 }
 
 .announcement-card {
