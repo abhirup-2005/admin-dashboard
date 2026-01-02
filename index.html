@@ -6,36 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 
 <body>
     <header>
-        <div class="searchbar">searchbar</div>
-        <div class="profile">Profile Name</div>
-        <div class="name">
-            <div class="greeting">Hi there,</div>
-            <div class="profile-name">Profile Name</div>
+        <div class="up">
+            <div class="searchbar">
+                <label for="search-bar" class="search-icon">
+                    <img src="./assets/magnify.svg">
+                </label>
+                <input type="search" id="search-bar">
+            </div>
+            <div class="notification">
+                <img src="./assets/bell-ring-outline.svg">
+            </div>
+            <div class="profile">
+                <img class="main-img" src="./assets/profile.png">
+                <div class="text-content">Morgan Oakley</div>
+            </div>
         </div>
-        <ul class="buttons">
-            <li><button class="new">New</button></li>
-            <li><button class="upload">Upload</button></li>
-            <li><button class="share">Share</button></li>
-        </ul>
+        <div class="down">
+            <div class="profile">
+                <img class="copy-img" src="./assets/profile.png">
+                <div class="content">
+                    <div class="greeting">Hi there,</div>
+                    <div class="text-content">Morgan Oakley (@morgan)</div>
+                </div>
+            </div>
+            <ul class="buttons">
+                <li><button class="new">New</button></li>
+                <li><button class="upload">Upload</button></li>
+                <li><button class="share">Share</button></li>
+            </ul>
+        </div>
     </header>
     <div class="sidebar">
-        <div class="heading">Dashboard</div>
-        <ul class="nav">
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messege</li>
-            <li>History</li>
-            <li>Task</li>
-            <li>Communities</li>
+        <div class="heading">
+            <img class="dashboard-icon" src="./assets/view-dashboard.svg">
+           <div>Dashboard</div>
+        </div>
+        <ul class="nav top">
+            <li>
+                <img src="./assets/home.svg">
+                <div>Home</div>
+            </li>
+            <li>
+                <img src="./assets/card-account-details-outline.svg">
+                <div>Profile</div>
+            </li>
+            <li>
+                <img src="./assets/message-reply.svg">
+                <div>Messages</div>
+            </li>
+            <li>
+                <img src="./assets/clock-time-three.svg">
+                <div>History</div>
+            </li>
+            <li>
+                <img src="./assets/file-multiple.svg">
+                <div>Tasks</div>
+            </li>
+            <li>
+                <img src="./assets/account-group.svg">
+                <div>Communities</div>
+            </li>
         </ul>
-        <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
+        <ul class="nav bottom">
+            <li>
+                <img src="./assets/cog.svg">
+                <div>Settings</div>
+            </li>
+            <li>
+                <img src="./assets/help-box.svg">
+                <div>Support</div>
+            </li>
+            <li>
+                <img src="./assets/shield-check.svg">
+                <div>Privacy</div>
+            </li>
         </ul>
     </div>
     <main>
@@ -43,34 +92,82 @@
             <div class="heading-main">Your Projects:</div>
             <div class="proj-cards">
                 <div class="project-card">
-                    <div class="title">Project</div>
-                    <div class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi totam quidem ut
-                        quis et vitae corrupti repudiandae voluptates! Optio, nobis?</div>
+                    <div class="project-details">
+                        <div class="title">Project</div>
+                        <div class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi totam
+                            quidem ut
+                            quis et vitae corrupti repudiandae voluptates! Optio, nobis?</div>
+                    </div>
+                    <ul class="options">
+                        <li><img src="./assets/star-plus-outline.svg"></li>
+                        <li><img src="./assets/eye-plus-outline.svg"></li>
+                        <li><img src="./assets/source-fork.svg"> </li>
+                    </ul>
                 </div>
                 <div class="project-card">
-                    <div class="title">Project</div>
-                    <div class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi totam quidem ut
-                        quis et vitae corrupti repudiandae voluptates! Optio, nobis?</div>
+                    <div class="project-details">
+                        <div class="title">Project</div>
+                        <div class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi totam
+                            quidem ut
+                            quis et vitae corrupti repudiandae voluptates! Optio, nobis?</div>
+                    </div>
+                    <ul class="options">
+                        <li><img src="./assets/star-plus-outline.svg"></li>
+                        <li><img src="./assets/eye-plus-outline.svg"></li>
+                        <li><img src="./assets/source-fork.svg"> </li>
+                    </ul>
                 </div>
                 <div class="project-card">
-                    <div class="title">Project</div>
-                    <div class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi totam quidem ut
-                        quis et vitae corrupti repudiandae voluptates! Optio, nobis?</div>
+                    <div class="project-details">
+                        <div class="title">Project</div>
+                        <div class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi totam
+                            quidem ut
+                            quis et vitae corrupti repudiandae voluptates! Optio, nobis?</div>
+                    </div>
+                    <ul class="options">
+                        <li><img src="./assets/star-plus-outline.svg"></li>
+                        <li><img src="./assets/eye-plus-outline.svg"></li>
+                        <li><img src="./assets/source-fork.svg"> </li>
+                    </ul>
                 </div>
                 <div class="project-card">
-                    <div class="title">Project</div>
-                    <div class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi totam quidem ut
-                        quis et vitae corrupti repudiandae voluptates! Optio, nobis?</div>
+                    <div class="project-details">
+                        <div class="title">Project</div>
+                        <div class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi totam
+                            quidem ut
+                            quis et vitae corrupti repudiandae voluptates! Optio, nobis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, tempora sed a molestiae explicabo praesentium.</div>
+                    </div>
+                    <ul class="options">
+                        <li><img src="./assets/star-plus-outline.svg"></li>
+                        <li><img src="./assets/eye-plus-outline.svg"></li>
+                        <li><img src="./assets/source-fork.svg"> </li>
+                    </ul>
                 </div>
                 <div class="project-card">
-                    <div class="title">Project</div>
-                    <div class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi totam quidem ut
-                        quis et vitae corrupti repudiandae voluptates! Optio, nobis?</div>
+                    <div class="project-details">
+                        <div class="title">Project</div>
+                        <div class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi totam
+                            quidem ut
+                            quis et vitae corrupti repudiandae voluptates! Optio, nobis?</div>
+                    </div>
+                    <ul class="options">
+                        <li><img src="./assets/star-plus-outline.svg"></li>
+                        <li><img src="./assets/eye-plus-outline.svg"></li>
+                        <li><img src="./assets/source-fork.svg"> </li>
+                    </ul>
                 </div>
                 <div class="project-card">
-                    <div class="title">Project</div>
-                    <div class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi totam quidem ut
-                        quis et vitae corrupti repudiandae voluptates! Optio, nobis?</div>
+                    <div class="project-details">
+                        <div class="title">Project</div>
+                        <div class="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi totam
+                            quidem ut
+                            quis et vitae corrupti repudiandae voluptates! Optio, nobis?</div>
+                    </div>
+                    <ul class="options">
+                        <li><img src="./assets/star-plus-outline.svg"></li>
+                        <li><img src="./assets/eye-plus-outline.svg"></li>
+                        <li><img src="./assets/source-fork.svg"> </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -78,34 +175,54 @@
         <div class="main-sidebar">
             <div class="announcement">
                 <div class="heading-main">Announcement:</div>
-                <div class="announce-cards">
-                    <div class="announcement-card">
-                        <div class="title">Announcement</div>
-                        <div class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui eum quod
-                            optio
-                            rem, commodi unde.</div>
-                    </div>
-                    <div class="announcement-card">
-                        <div class="title">Announcement</div>
-                        <div class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui eum quod
-                            optio
-                            rem, commodi unde.</div>
-                    </div>
-                    <div class="announcement-card">
-                        <div class="title">Announcement</div>
-                        <div class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui eum quod
-                            optio
-                            rem, commodi unde.</div>
+                <div class="announcement-container">
+                    <div class="announcement-cards">
+                        <div class="announcement-card">
+                            <div class="title">Announcement</div>
+                            <div class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui eum quod
+                                optio
+                                rem, commodi unde.</div>
+                        </div>
+                        <div class="announcement-card">
+                            <div class="title">Announcement</div>
+                            <div class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui eum quod
+                                optio
+                                rem, commodi unde.</div>
+                        </div>
+                        <div class="announcement-card">
+                            <div class="title">Announcement</div>
+                            <div class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui eum quod
+                                optio
+                                rem, commodi unde.</div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="trends">
-                <div class="heading-main">Trends:</div>
-                <div class="trend-cards">
-                    <div class="trend-card">trend1</div>
-                    <div class="trend-card">trend2</div>
-                    <div class="trend-card">trend3</div>
-                    <div class="trend-card">trend4</div>
+                <div class="heading-main">Trending:</div>
+                <div class="trends-container">
+                    <div class="trend-cards">
+                        <div class="trend-card">
+                            <img src="./assets/horse.png">
+                            <div class="title">trend1</div>
+                            <div class="text-content">Lorem, ipsum dolor.</div>
+                        </div>
+                        <div class="trend-card">
+                            <img src="./assets/profile.png">
+                            <div class="title">@morgan</div>
+                            <div class="text-content">Lorem, ipsum dolor.</div>
+                        </div>
+                        <div class="trend-card">
+                            <img src="./assets/soccer.png">
+                            <div class="title">trend3</div>
+                            <div class="text-content">Lorem, ipsum dolor.</div>
+                        </div>
+                        <div class="trend-card">
+                            <img src="./assets/spider-man-5.svg">
+                            <div class="title">trend4</div>
+                            <div class="text-content">Lorem, ipsum dolor.</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
